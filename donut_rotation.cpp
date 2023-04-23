@@ -40,7 +40,7 @@ int main() {
                 if (l > 0){
                     if (x2 < width && x2 >= 0 && y2 < height && y2 >= 0 && z > zb[x2 + y2 * (width + 1)]) {
                         zb[x2 + y2 * (width + 1)] = z;
-                        b[x2 + y2 * (width + 1)] = ".,-:=*+*#%@"[(int)(l * 7.3)];
+                        b[x2 + y2 * (width + 1)] = ".,-:=*+$#%@"[(int)(l * 7.3)];
                     }
                 }
             }
